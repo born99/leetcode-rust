@@ -1,0 +1,31 @@
+[workspace]
+members = [
+    "graph",
+    "array",
+    "rust",
+    "linked_list",
+    "tree"
+]
+# default-members = [
+#     "/abc/array",
+#     "/abc/rust",
+#     "/abc/linked_list"
+# ]
+       
+
+[profile.release]
+opt-level = 3
+
+[profile.release.package.half]
+opt-level = 1
+
+[profile.dev]
+opt-level = 0
+debug = 1
+codegen-units = 4
+lto = false
+incremental = true
+panic = 'unwind'
+debug-assertions = true
+overflow-checks = false
+rpath = false

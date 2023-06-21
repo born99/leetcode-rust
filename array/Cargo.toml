@@ -1,0 +1,22 @@
+[package]
+name = "exp_rust_array"
+description = "Exploring Rust - Array"
+version = "1.0.0"
+authors = ["Nhat Nguyen Minh <minhnhatnguyen48@gmail.com"]
+edition = "2021"
+# documentation = "https://api.fadov2.global/documentation"
+license-file = "LICENSE.txt"
+keywords = ["rust", "array"]
+# homepage = "https://api.fadov2.global/"
+# repository = "https://gitlab.com/fdcoin/fdglapir"
+publish = false
+
+[dependencies]
+tokio = { version = "1.28.1", features = ["full"] }
+
+#Run binary này trước khi run 
+# hoặc cũng có thể đây là cài đặt cách build binary của cái này
+# [[bin]]
+# name = "exp_rust_array1"
+# path = "./src/main.rs"
+# test = false
