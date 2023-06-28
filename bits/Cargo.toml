@@ -1,0 +1,15 @@
+[package]
+name = "exp_rust_bits"
+description = "Exploring Rust - Bits Manipulation"
+version = "1.0.0"
+authors = ["Nhat Nguyen Minh <minhnhatnguyen48@gmail.com"]
+edition = "2021"
+# documentation = "https://api.fadov2.global/documentation"
+license-file = "LICENSE.txt"
+keywords = ["rust", "array"]
+# homepage = "https://api.fadov2.global/"
+# repository = "https://gitlab.com/fdcoin/fdglapir"
+publish = false
+
+[dependencies]
+tokio = { version = "1.28.1", features = ["full"] }

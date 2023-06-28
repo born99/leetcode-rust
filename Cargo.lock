@@ -41,6 +41,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "exp_rust_bits"
+version = "1.0.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "exp_rust_dynamic_programming"
 version = "1.0.0"
 dependencies = [

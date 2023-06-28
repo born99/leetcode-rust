@@ -5,7 +5,8 @@ members = [
     "rust",
     "linked_list",
     "tree",
-    "dynamic_programming"
+    "dynamic_programming",
+    "bits"
 ]
 # default-members = [
 #     "/abc/array",
